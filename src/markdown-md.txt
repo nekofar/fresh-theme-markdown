@@ -1,0 +1,49 @@
+<h1 align="center">
+  {{ r.name }}
+</h1>
+
+<p align="center">
+{{#has 'contact.email' }}
+  <a href="mailto:{{{ r.contact.email }}}">{{{ r.contact.email }}}</a> . 
+{{/has}}
+{{#has 'contact.phone' }}
+  {{{ r.contact.phone }}} .
+{{/has}}
+{{#has 'contact.website' }}
+  <a href="{{{ r.contact.website }}}">{{{ trimURL r.contact.website }}}</a>
+{{/has}}
+</p>
+
+---
+
+{{> section/info }}
+
+{{> section/skills }}
+
+{{> employment }}
+
+{{> section/projects }}
+
+{{> section/governance }}
+
+{{> education }}
+
+{{> section/affiliation }}
+
+{{> section/samples }}
+
+{{> section/writing }}
+
+{{> section/reading }}
+
+{{> service }}
+
+{{> section/recognition }}
+
+{{> section/extracurricular }}
+
+{{> section/speaking }}
+
+{{> section/references }}
+
+{{> section/interests }}
