@@ -1,0 +1,19 @@
+{
+  "name": "fresh-theme-markdown",
+  "version": "1.0.0",
+  "homepage": "https://github.com/nekofar/fresh-theme-markdown",
+  "authors": ["Milad Nekofar <milad@nekofar.com>"],
+  "description": "A markdown, no-frills résumé theme for candidates with lengthy work histories.",
+  "main": "theme.json",
+  "keywords": [
+    "resume",
+    "CV",
+    "FRESH",
+    "HackMyResume",
+    "employment",
+    "schema",
+    "JSON"
+  ],
+  "license": "MIT",
+  "ignore": ["**/.*", "node_modules", "bower_components", "test", "tests"]
+}

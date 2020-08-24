@@ -1,0 +1,27 @@
+{
+  "name": "fresh-theme-markdown",
+  "version": "1.0.0",
+  "description": "A markdown, no-frills résumé theme for candidates with lengthy work histories.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nekofar/fresh-theme-markdown.git"
+  },
+  "keywords": [
+    "resume",
+    "CV",
+    "FRESH",
+    "FluentCV",
+    "HackMyResume",
+    "schema",
+    "JSON",
+    "employment"
+  ],
+  "author": "Milad Nekofar <milad@nekofar.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nekofar/fresh-theme-markdown/issues"
+  },
+  "main": "theme.json",
+  "homepage": "https://github.com/nekofar/fresh-theme-markdown",
+  "ignore": ["**/.*", "node_modules", "bower_components", "test", "tests"]
+}
