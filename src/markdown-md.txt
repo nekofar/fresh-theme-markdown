@@ -46,4 +46,4 @@
 
 {{> section/references }}
 
-{{> section/interests }}
+{{> interests }}
