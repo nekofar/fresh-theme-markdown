@@ -3,9 +3,9 @@
 
 {{#each r.education.history}}
 {{#if url}}
-- [{{{ institution }}}]({{{ url }}}) ({{dateRange .}})
+- {{#if title}}***{{{ title }}}***, {{/if}}[{{{ institution }}}]({{{ url }}}) ({{dateRange .}})
 {{else}}
-- {{{ institution }}} ({{dateRange .}})
+- {{#if title}}***{{{ title }}}***, {{/if}}{{{ institution }}} ({{dateRange .}})
 {{/if}}
 
 {{#if summary }}
