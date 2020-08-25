@@ -32,7 +32,7 @@
 
 {{> section/samples }}
 
-{{> section/writing }}
+{{> writing }}
 
 {{> section/reading }}
 
@@ -42,7 +42,7 @@
 
 {{> section/extracurricular }}
 
-{{> section/speaking }}
+{{> speaking }}
 
 {{> section/references }}
 
